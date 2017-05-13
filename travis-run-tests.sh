@@ -39,6 +39,3 @@ if [ $1 == "console" ]; then
     cd testsuite/integration-arquillian/tests/other/console
     mvn test -B --no-snapshot-updates 
 fi
-
-mvn sonar:sonar -Dsonar.host.url=https://sonarqube.com -Dsonar.login=${SONARQUBE_TOKEN}
-
