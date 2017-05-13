@@ -40,3 +40,5 @@ if [ $1 == "console" ]; then
     mvn test -B --no-snapshot-updates 
 fi
 
+mvn sonar:sonar -Dsonar.host.url=https://sonarqube.com -Dsonar.login=${SONARQUBE_TOKEN}
+
