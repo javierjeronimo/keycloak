@@ -28,6 +28,6 @@ install:
   - travis_wait 60 mvn install --no-snapshot-updates -Pdistribution -DskipTestsuite -B -V -q
 
 script:
-  - ./travis-run-tests.sh $TESTS
+  - ./travis-run-sonar.sh
 
 sudo: false
