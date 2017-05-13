@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/javierjeronimo/keycloak.svg?branch=3.1.x)](https://travis-ci.org/javierjeronimo/keycloak)
+
 Keycloak
 ========
 
